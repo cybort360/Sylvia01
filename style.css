@@ -48,19 +48,19 @@ canvas {
 }
 
 .days {
-  left: 33em;
+  left: 31em;
 }
 
 .hours {
-  left: 40em;
+  left: 38em;
 }
 
 .minutes {
-  left: 45em;
+  left: 47em;
 }
 
 .seconds {
-  left: 60em;
+  left: 58em;
 }
 @media (width < 700px) {
   .clock {
