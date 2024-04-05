@@ -88,18 +88,18 @@ canvas {
   }
 
   .days {
-    left: 9em;
+    left: 7em;
   }
 
   .hours {
-    left: 20em;
+    left: 18em;
   }
 
   .minutes {
-    left: 31em;
+    left: 29em;
   }
 
   .seconds {
-    left: 43em;
+    left: 41em;
   }
 }
