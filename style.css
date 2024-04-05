@@ -52,7 +52,7 @@ canvas {
 }
 
 .hours {
-  left: 38em;
+  left: 39em;
 }
 
 .minutes {
@@ -60,7 +60,7 @@ canvas {
 }
 
 .seconds {
-  left: 58em;
+  left: 57em;
 }
 @media (width < 700px) {
   .clock {
