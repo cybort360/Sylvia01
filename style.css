@@ -1,0 +1,105 @@
+body {
+  background: #f1eaff;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin: 150px auto;
+  color: #000;
+  font-family: "Exo 2", sans-serif;
+}
+
+.clock {
+  font-size: 4em;
+  text-align: center;
+  margin: -100px auto;
+  color: #d0a2f7;
+  font-family: "Exo 2", sans-serif;
+}
+
+.clock span {
+  background-color: #e5d4ff;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+canvas {
+  background: transparent;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  bottom: 300px;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  font-family: "Exo 2", sans-serif;
+  font-size: 1em;
+}
+
+.days {
+  position: absolute;
+  left: 46em;
+  top: 21em;
+}
+
+.hours {
+  position: absolute;
+  left: 54.5em;
+  top: 21em;
+}
+
+.minutes {
+  position: absolute;
+  left: 62em;
+  top: 21em;
+}
+
+.seconds {
+  position: absolute;
+  left: 71em;
+  top: 21em;
+}
+@media (width < 700px) {
+  .clock {
+    font-size: 2em;
+    text-align: center;
+    margin: -100px auto;
+    color: #d0a2f7;
+    font-family: "Exo 2", sans-serif;
+  }
+
+  .days,
+  .hours,
+  .minutes,
+  .seconds {
+    font-family: "Exo 2", sans-serif;
+    font-size: 0.5em;
+    position: absolute;
+    top: 42em;
+  }
+
+  .days {
+    left: 9em;
+  }
+
+  .hours {
+    left: 20em;
+  }
+
+  .minutes {
+    left: 31em;
+  }
+
+  .seconds {
+    left: 43em;
+  }
+}
