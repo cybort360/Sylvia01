@@ -47,25 +47,25 @@ canvas {
 
 .days {
   position: absolute;
-  left: 46em;
+  left: 35em;
   top: 21em;
 }
 
 .hours {
   position: absolute;
-  left: 54.5em;
+  left: 50em;
   top: 21em;
 }
 
 .minutes {
   position: absolute;
-  left: 62em;
+  left: 57em;
   top: 21em;
 }
 
 .seconds {
   position: absolute;
-  left: 71em;
+  left: 66em;
   top: 21em;
 }
 @media (width < 700px) {
