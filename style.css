@@ -92,14 +92,14 @@ canvas {
   }
 
   .hours {
-    left: 18em;
+    left: 17em;
   }
 
   .minutes {
-    left: 29em;
+    left: 27em;
   }
 
   .seconds {
-    left: 41em;
+    left: 40em;
   }
 }
