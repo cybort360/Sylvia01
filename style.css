@@ -43,30 +43,24 @@ canvas {
 .seconds {
   font-family: "Exo 2", sans-serif;
   font-size: 1em;
+  position: absolute;
+  top: 21em;
 }
 
 .days {
-  position: absolute;
-  left: 35em;
-  top: 18em;
+  left: 33em;
 }
 
 .hours {
-  position: absolute;
-  left: 50em;
-  top: 21em;
+  left: 40em;
 }
 
 .minutes {
-  position: absolute;
-  left: 57em;
-  top: 21em;
+  left: 45em;
 }
 
 .seconds {
-  position: absolute;
-  left: 66em;
-  top: 21em;
+  left: 60em;
 }
 @media (width < 700px) {
   .clock {
